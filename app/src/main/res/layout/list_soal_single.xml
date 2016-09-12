@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    >
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/usersSoal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</RelativeLayout>
+
+
+    <!--
+    <android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            >
+
+            <include layout="@layout/list_soal_single"/>
+            <include layout="@layout/list_soal_single"/>
+            <include layout="@layout/list_soal_single"/>
+            <include layout="@layout/list_soal_single"/>
+            <include layout="@layout/list_soal_single"/>
+            <include layout="@layout/list_soal_single"/>
+            <include layout="@layout/list_soal_single"/>
+            <include layout="@layout/list_soal_single"/>
+            <include layout="@layout/list_soal_single"/>
+            <include layout="@layout/list_soal_single"/>
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView> -->

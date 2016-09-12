@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/no_soal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soal 1"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <ImageView
+            android:id="@+id/gbr_soal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/isi_soal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Lorem ipsum dolor sit amet, ad mel tritani dolorum elaboraret, vel fierent constituto ea. Ad autem indoctum conclusionemque mea, ex vide contentiones vel, eum ut erat scripta expetendis."
+            />
+
+        <RadioButton
+            android:id="@+id/jwb_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lalala"
+            />
+        <RadioButton
+            android:id="@+id/jwb_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lalala"
+            />
+        <RadioButton
+            android:id="@+id/jwb_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lalala"
+            />
+        <RadioButton
+            android:id="@+id/jwb_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lalala"
+            />
+        <RadioButton
+            android:id="@+id/jwb_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lalala"
+            />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

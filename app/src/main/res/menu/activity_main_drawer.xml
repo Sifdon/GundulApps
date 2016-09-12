@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account_circle"
+            android:title="Profil" />
+        <item
+            android:id="@+id/nav_kuis"
+            android:icon="@drawable/ic_alarm_now"
+            android:title="Kuis Sekarang" />
+        <item
+            android:id="@+id/nav_kuis_add"
+            android:icon="@drawable/ic_alarm_add"
+            android:title="Atur Waktu Kuis" />
+
+    </group>
+    <group
+        android:id="@+id/menu_mid"
+        android:checkableBehavior="none"
+        >
+        <item
+            android:id="@+id/nav_teman"
+            android:icon="@drawable/ic_friend"
+            android:title="Teman" />
+        <item
+            android:id="@+id/nav_peringkat"
+            android:icon="@drawable/ic_trending"
+            android:title="Peringkat" />
+    </group>
+
+    <group
+        android:id="@+id/menu_bot"
+        android:checkableBehavior="none"
+        >
+        <item
+            android:id="@+id/nav_pengaturan"
+            android:icon="@drawable/ic_settings"
+            android:title="Pengaturan" />
+        <item
+            android:id="@+id/nav_bantuan"
+            android:icon="@drawable/ic_help"
+            android:title="Bantuan dan Saran" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info"
+            android:title="Info Aplikasi" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Keluar" />
+
+    </group>
+
+
+</menu>
